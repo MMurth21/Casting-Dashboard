@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Allow Tailwind utilities to reference the existing design tokens */
+@theme {
+  --color-canvas:    #F7F6F2;
+  --color-surface:   #FFFFFF;
+  --color-border:    #E4E2DA;
+  --color-ink:       #1A1814;
+  --color-muted:     #9E9993;
+  --color-secondary: #6B6560;
+  --color-warm:      #8B6F47;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans:  'Inter', system-ui, sans-serif;
+}
